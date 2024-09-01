@@ -1,0 +1,18 @@
+{
+  "name": "wadoku-yomitan-converter",
+  "version": "0.1.0",
+  "description": "Converts a Wadoku (Japanese-German dictionary) dictionary/text file to a Yomitan dictionary file via yomichan-dict-builder",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.mjs"
+  },
+  "keywords": [
+    "yomitan",
+    "wadoku"
+  ],
+  "author": "sschmidTU",
+  "license": "MIT",
+  "dependencies": {
+    "yomichan-dict-builder": "^2.9.1"
+  }
+}

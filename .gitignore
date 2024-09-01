@@ -1,0 +1,11 @@
+#external assets
+wadokudict
+
+#build
+index.json
+wadokuYomitan.zip
+wadokuYomitan/
+
+#npm
+node_modules/
+package-lock.json
