@@ -14,11 +14,11 @@ async function init() {
           console.error(err);
           return;
         }
-        processFile(data, dirname);
+        processFile(data);
     });
 }
 
-async function processFile(fileString, dirname) {
+async function processFile(fileString) {
     const dictionary = new Dictionary({
         fileName: 'wadokuYomitan.zip',
     });
@@ -57,6 +57,7 @@ async function processFile(fileString, dirname) {
             if (definition.trim() == "") {
                 continue;
             }
+            // more complex way to add definition, with styling:
             // /** @type {import('../dist/types/yomitan/termbank').StructuredContent} */
             // const sc = {
             //     tag: 'span',
@@ -71,11 +72,13 @@ async function processFile(fileString, dirname) {
             //         textDecorationLine: 'overline',
             //     },
             // }
-            //console.log("definition: " + definition);
             // const detailedDefinition = {
             //     type: 'structured-content',
             //     content: sc,
             //   };
+            // entry.addDetailedDefinition(detailedDefinition);
+
+            // simply add definition as string:
             entry.addDetailedDefinition(definition);
             addedDefinition = true;
         }
