@@ -4,6 +4,7 @@ import {fileURLToPath} from 'url';
 import { Dictionary, DictionaryIndex, TermEntry } from "yomichan-dict-builder";
 
 async function init() {
+    console.log("generating Yomitan dictionary file. This may take a few seconds.");
     const __filename = fileURLToPath(import.meta.url);
     const dirname = path.dirname(__filename);
     // the following wadokudict file needs to be downloaded externally, see readme
@@ -83,12 +84,6 @@ async function processFile(fileString, dirname) {
         }
         const termInformation = entry.build();
         await dictionary.addTerm(termInformation);
-
-        // console.log(`word: ${wordPart}, reading: ${readingPart}, definition: ${definitionPart}`);
-
-        // if (i > 1) {
-        //     break;
-        // }
     }
 
     // export
