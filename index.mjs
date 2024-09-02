@@ -12,6 +12,7 @@ async function init() {
     FS.readFile(dirname + "/wadokudict", "utf8" , (err, data) => {
         if (err) {
           console.error(err);
+          console.log("wadokudict not found, please download it, see Readme! Exiting.");
           return;
         }
         processFile(data);
