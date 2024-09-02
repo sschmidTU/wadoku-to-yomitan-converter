@@ -42,7 +42,7 @@ async function processFile(fileString) {
         // let definitionPartIndex = row.indexOf(" ", readingPartIndex + 1);
         let definitionPartIndex = row.indexOf("]") + 1;
         const wordPart = row.substring(0, readingPartIndex - 1).trim();
-        if (wordPart.trim() === "") {
+        if (wordPart === "") {
             continue;
         }
         const readingPart = row.substring(readingPartIndex, definitionPartIndex - 1).trim();
@@ -54,7 +54,7 @@ async function processFile(fileString) {
 
         let addedDefinition = false;
         for (const definition of definitions) {
-            if (definition.trim() == "") {
+            if (definition.trim() === "") {
                 continue;
             }
             // more complex way to add definition, with styling:
