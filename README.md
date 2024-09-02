@@ -1,7 +1,7 @@
 # Wadoku to Yomitan Converter
 
 Converts an EDICT version of [Wadoku](https://www.wadoku.de/) (well-known Japanese-German dictionary)
-to be used/imported in Yomitan (or Yomichan).
+to be used/imported in [Yomitan](https://github.com/themoeway/yomitan) (or Yomichan).
 
 ## Usage
 * Run `npm install` (if you don't have npm, install it from [here](https://nodejs.org/en))
