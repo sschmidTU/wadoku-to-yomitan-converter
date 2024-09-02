@@ -12,7 +12,7 @@ to be used/imported in Yomitan (or Yomichan).
 * The `wadokuYomitan.zip` file will be in this folder
 * Import this .zip file in Yomitan/Yomichan
 
-<img src="https://github.com/user-attachments/assets/3433e984-6f0f-49e7-9bac-bec46b1223e7" height="300">
+<img src="https://github.com/user-attachments/assets/3433e984-6f0f-49e7-9bac-bec46b1223e7" height="400">
 
 Using [yomichan-dict-builder](https://github.com/MarvNC/yomichan-dict-builder/) - thanks!
 Please note the [Wadoku license](https://www.wadoku.de/wiki/pages/viewpage.action?pageId=357).
