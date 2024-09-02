@@ -1,6 +1,6 @@
 # Wadoku to Yomitan Converter
 
-This lets you convert a EDICT version of Wadoku (well-known Japanese-German dictionary)
+This lets you convert an EDICT version of Wadoku (well-known Japanese-German dictionary)
 to be used/imported in Yomitan (or Yomichan).
 
 ## Usage
@@ -13,3 +13,4 @@ to be used/imported in Yomitan (or Yomichan).
 * Import this .zip file in Yomitan/Yomichan
 
 Using [yomichan-dict-builder](https://github.com/MarvNC/yomichan-dict-builder/) - thanks!
+Please note the [Wadoku license](https://www.wadoku.de/wiki/pages/viewpage.action?pageId=357).
