@@ -12,7 +12,9 @@ to be used/imported in [Yomitan](https://github.com/themoeway/yomitan) (or Yomic
 * The `wadokuYomitan.zip` file will be in this folder
 * Import this .zip file in Yomitan/Yomichan
 
-<img src="https://github.com/user-attachments/assets/3433e984-6f0f-49e7-9bac-bec46b1223e7" height="400">
+<img src="https://github.com/user-attachments/assets/2526a325-ce10-4a8e-bd0e-55ba4e6561ec" height="400">
+
+<img src="https://github.com/user-attachments/assets/6a24c03e-d798-46fd-9142-4e6dd455cf01" height="300"/>
 
 Using [yomichan-dict-builder](https://github.com/MarvNC/yomichan-dict-builder/) - thanks!
 Please note the [Wadoku license](https://www.wadoku.de/wiki/pages/viewpage.action?pageId=357).
